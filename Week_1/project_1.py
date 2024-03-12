@@ -9,13 +9,13 @@ def SI(p,r,t):
     a = p * (1 + ( r / 100 ) * t)
     return a
 
-# The Function CI calculates the simple interest
+# The Function CI calculates the Compound interest
 def CI(p,r,n,t):
     power = n * t
     a = p * ( 1 + r / n ) ** power
     return a
 
-# The Function AP calculates the simple interest
+# The Function AP calculates the Annuity Plan
 def AP(p,r,n,t):
     power = n * t
     a = p * ((( 1 + r / n ) ** power) - 1) / (r / n)
@@ -50,7 +50,8 @@ elif choice == 2:
     r =  int(input("Enter interest rate >> "))
     n = int(input("Enter number of times interest applied per time period >> "))
     t = int(input("Enter number of time periods elapsed >> "))
-    
+
+    # ci is the variable used to call the function CI.
     ci=CI(p,r,n,t)
     print(f"Final Amount = N{ci}")
 
@@ -59,6 +60,7 @@ elif choice == 3:
     r =  int(input("Enter interest rate >> "))
     n = int(input("Enter number of times interest applied per time period >> "))
     t = int(input("Enter number of time periods elapsed >> "))
-    
+
+    # ap is the variable used to call the function AP.
     ap=AP(pmt,r,n,t)
     print(f"Final Amount = N{ap}")
