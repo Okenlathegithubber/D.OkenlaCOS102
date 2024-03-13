@@ -1,0 +1,10 @@
+Algorithm for project 1
+1. Start
+2. What do you wish to calculate?
+3. if 1, ask for principal, rate and time and calculate simple interest.
+4. Print Amount.
+5. if 2, ask for principal, rate, time and number of times interest is applied per period and calculate compound interest.
+6. Print Amount.
+7. if 3, ask for PMT, rate, time and number of times interest is applied per period and calculate the annuity plan.
+8. Print Amount.
+9. Stop.
