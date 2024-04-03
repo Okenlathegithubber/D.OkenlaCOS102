@@ -16,7 +16,7 @@ b_Scores = [74,87,75,68,66,78,87,98,54,60]
 
 print("Data of Boys and Girls")
 print("\t\tGirls")
-print("\tNames\t  |Age \t|Height\t  |Scores")
+print("\tNames\t  |Age \t|Height\t |Scores")
 # Use a for loop to print out the details one by one
 for i in range(10):
     print(f"\t{g_Names[i]}\t  |{g_Age[i]} \t|{g_Height[i]}\t |{g_Scores[i]}")
@@ -24,7 +24,7 @@ for i in range(10):
 print("\n")
 
 print("\t\tBoys")
-print("\tNames\t  |Age \t|Height\t  |Scores")
+print("\tNames\t  |Age \t|Height\t |Scores")
 # Use a for loop to print out the details one by one
 for k in range(10):
     print(f"\t{b_Names[k]}\t  |{b_Age[k]} \t|{b_Height[k]}\t |{b_Scores[k]}")
