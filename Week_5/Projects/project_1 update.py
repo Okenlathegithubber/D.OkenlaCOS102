@@ -62,7 +62,10 @@ def welcomeMessage(username, users):
     label_3.pack()
     for employees in users:
         label_4 = Label(window, text=f"{employees}\n")
-        label_4.pack()
+        label_4.pack(padx = 20)
+
+    close_button = Button(window, text="Close", command=window.destroy)
+    close_button.pack()
 
     # Run the Tkinter event Loop
     root.mainloop()

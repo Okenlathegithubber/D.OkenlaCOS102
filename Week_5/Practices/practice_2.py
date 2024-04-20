@@ -9,3 +9,7 @@ def changeme( mylist ):
 mylist = [10,20,30]
 changeme( mylist )
 print ("Values outside the function: ", mylist)
+
+# Result from above
+# Values inside the function:  [100, 20, 30, [1, 2, 3, 4]]
+# Values outside the function:  [100, 20, 30, [1, 2, 3, 4]]
