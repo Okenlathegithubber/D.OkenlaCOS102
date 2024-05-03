@@ -1,0 +1,11 @@
+Algorithm for COS TEST 2
+1. Create a window
+2. Create a Button to show the menu
+3. When the Button is clicked, Show the menu
+4. Create combo boxes to allow users to get food items easily.
+5. Create another button called next.
+6. When the next button is clicked, Another window called next_window is open
+7. When the window opens, the user picks a food item according to what food type has been picked.
+8. When done, a question is displayed if they want to still order.
+9. If the user picks yes, the program resets the food_type entry and closes the food order window.
+10. If the user picks no, the program displays the total price.
